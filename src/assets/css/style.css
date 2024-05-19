@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --cor-primaria: #242331;
+    --cor-secundaria:  #7B68EE;
+    --cor-terciaria:  #F6F6F6;
+    --cor-hover: #272727;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: var(--cor-primaria);
+    
+}
+
+main{
+    height: 100vh;
+    padding: 5% 10%;   
+}
+
+a{
+    color: var(--cor-secundaria);
+}
+
+span{
+    font-weight: bold;
+    color: var(--cor-secundaria);
+}
+
+h1 , p{
+    max-width: 800px;
+    color: var(--cor-terciaria);
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5
+}
+
+h1{
+    font-size: 2rem;
+}
+
+p{
+  font-size: 1rem;
+}
+
+span{
+    font-size: 1.5rem;
+}
+
+
+h1, p, span{
+    text-shadow: 2px 2px 6px #8c8c8ca8;
+}
+
+
+
+.elemento_pricipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+/* .elemento_pricipal_img{
+
+    background-color: var(--cor-hover);
+    border: solid 1px white;
+    border-radius: 5px;
+} */
+
+.elemento_pricipal_texto{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  
+    
+    
+}
+
+.foto_usuario{
+    width: 100%;
+    background-color: var(--cor-hover);
+    border: solid 1px white;
+    border-radius: 25px;
+}
+
+.elemento_pricipal_texto_links {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    align-items: center;
+}
+
+.elemento_pricipal_texto_links a {
+    width: 25rem;
+    padding: 0.5rem;
+    background-color: #3B128E;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    gap: 1rem;
+    transition: all 0.3s ease; /* Adiciona transição para animação suave */
+}
+
+.elemento_pricipal_texto_links a:hover {
+    background-color: #5227cc; /* Altera a cor de fundo no hover */
+    color: #fff; /* Altera a cor do texto no hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adiciona sombra na caixa no hover para profundidade */
+}
+
+.elemento_pricipal_texto_links a img {
+    transition: transform 0.3s ease; /* Adiciona transição para dimensionamento suave da imagem */
+}
+
+.elemento_pricipal_texto_links a:hover img {
+    transform: scale(1.1); /* Aplica transformação de escala nas imagens no hover */
+}
+
+
