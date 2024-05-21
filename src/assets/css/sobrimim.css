@@ -19,21 +19,28 @@
 
 
 body{
+    height: 100%;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
     background-color: var(--cor-primaria);
     
+}
+header, main, footer {
+    padding: 20px;
 }
 
 main{
     height: 100vh;
-    padding: 5% 10%;   
+    padding: 5% 10%;
+    margin: 2rem 0 ;  
+    flex: 1; 
 }
 
-
-
-
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
 .elemento_pricipal{
     display: flex;
@@ -43,51 +50,104 @@ main{
 
 }
 
-/* .elemento_pricipal_img{
-
-    background-color: var(--cor-hover);
-    border: solid 1px white;
-    border-radius: 5px;
-} */
 
 
-
-
-
-.elemento_pricipal_texto_links {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    gap: 1rem;
-    align-items: center;
+span{
+    font-weight: bold;
+    color: var(--cor-secundaria);
 }
 
-.elemento_pricipal_texto_links a {
-    width: 25rem;
+h1 , p{
+    max-width: 800px;
+    color: var(--cor-terciaria);
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    text-align: center;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+p{
+  font-size: 1rem;
+}
+
+span{
+    font-size: 1.5rem;
+}
+
+
+h1, p, span{
+    text-shadow: 2px 2px 6px #8c8c8ca8;
+}
+
+.elemento_pricipal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.elemento_pricipal_skils{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+   
+   
+}
+
+.elemento_pricipal_skils_button {
+    width: 12rem;
+    text-align: center;
     padding: 0.5rem;
     background-color: #3B128E;
     color: white;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    border-radius: 25px;
     text-decoration: none;
-    gap: 1rem;
-    transition: all 0.3s ease; /* Adiciona transição para animação suave */
+    transition: all 0.5s ease;
 }
 
-.elemento_pricipal_texto_links a:hover {
+.elemento_pricipal_skils_button:hover {
     background-color: #5227cc; /* Altera a cor de fundo no hover */
     color: #fff; /* Altera a cor do texto no hover */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adiciona sombra na caixa no hover para profundidade */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.0);
 }
 
-.elemento_pricipal_texto_links a img {
-    transition: transform 0.3s ease; /* Adiciona transição para dimensionamento suave da imagem */
+.elemento_pricipal_skils_conteudo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4rem;
 }
 
-.elemento_pricipal_texto_links a:hover img {
-    transform: scale(1.1); /* Aplica transformação de escala nas imagens no hover */
+.card_skils{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cor-hover);
+    border: solid 1px var(--cor-secundaria);
+    border-radius: 25px;
+    color: var(--cor-terciaria);
+    padding: 3rem;
+    gap: 1rem;
+    
 }
+
+
+
+.card_skils img{
+    box-shadow: 2px 2px 6px #706868;
+    border-radius: 25px;
+    background-color: #F6F6F6;
+   
+    
+}
+
+
+
 
 

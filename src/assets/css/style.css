@@ -21,19 +21,17 @@
 body{
     display: flex;
     flex-direction: column;
-    gap: 2rem;
     background-color: var(--cor-primaria);
     
 }
 
 main{
     height: 100vh;
-    padding: 5% 10%;   
+    padding: 5% 10%;
+   
 }
 
-a{
-    color: var(--cor-secundaria);
-}
+
 
 span{
     font-weight: bold;

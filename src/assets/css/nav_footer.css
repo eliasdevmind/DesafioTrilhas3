@@ -13,6 +13,8 @@ header{
     display: flex;
     justify-content: space-around;
     padding: 1rem;
+    position: fixed;
+    width: 100%;
 
 }
 .links_navegacao{
@@ -32,13 +34,15 @@ header{
 
 .rodape{
     background-color: var(--cor-hover);
-    display: flex;
-    justify-content: space-around;
     padding: 1rem;
-   
+    display: flex;
+    justify-content: center;
+    
+    
 
 }
 
 .rodape_texto{
     color: var(--cor-terciaria);
+ 
 }
