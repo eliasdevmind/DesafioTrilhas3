@@ -4,79 +4,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio Elias</title>   
-    <link rel="stylesheet" href="./assets/css/nav_footer.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-   
-  
+    <title>Portifolio Elias</title>
+    <link rel="stylesheet" href="./assets/css/padrao.css">
+    <link rel="stylesheet" href="./assets/css/home.css">
+
+    <script src="./assets/js/nav.js" defer></script>
+
+
 
 
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul class="links_navegacao">
-                <li>
-                    <a href="./index.html">Home</a>
-                </li>
-                <li>
-                    <a href="./sobrimin.html">Sobre min</a>
-                </li>
-                <li>
-                    <a href="">Meus Projetos</a>
 
-                </li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
+    <div class="container">
+        <header>
+            <nav class="nav-bar">
+                <div class="logo">
+                    <h1>Logo</h1>
+                </div>
+                <div class="nav-list">
+                    <ul>
+                        <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                        <li class="nav-item"><a href="./sobrimin.html" class="nav-link">Sobre Mim</li>
+                        <li class="nav-item"><a href="#" class="nav-link"> Sobre</a></li>
+                    </ul>
+                </div>
+                <div class="login-button">
+                    <button><a href="#"></a>Dowload Curriculo</button>
+                </div>
 
-        <div class="elemento_pricipal">
+                <div class="mobile-menu-icon">
+                    <button onclick="menuShow()"><img class="icon" src="./assets/img/menu_white_36dp.svg" alt=""></button>
+                </div>
+            </nav>
+            <div class="mobile-menu">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="./sobrimin.html" class="nav-link">Sobre Min</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+                </ul>
 
-            <div class="elemento_pricipal_texto">
+                <div class="login-button">
+                    <button><a href="#">Dowload Curriculo</a></button>
+                </div>
+            </div>
+        </header>
 
-                <h1>Desenvolvedor <span>Back-End</span></h1>
 
-                <p>
+        <main>
 
-                    Olá, Elias Araujo é meu nome. Estou ingressando na área de programação <span>Back-End</span>, com
-                    foco em
-                    tecnologias como, <span>Flask, Django, JavaScript e Node.js.</span> Embora ainda esteja nos
-                    estágios
-                    iniciais da minha carreira, estou determinado a aprender e crescer nessas áreas. Estou ansioso para
-                    enfrentar desafios, desenvolver minhas habilidades e contribuir para projetos empolgantes.
+            <div class="elemento_pricipal">
 
-                </p>
+                <div class="elemento_pricipal_texto">
 
-                <div class="elemento_pricipal_texto_links">
-                    <a href="https://www.instagram.com/eliasdevmind/"><span><img src="./assets/img/instagram.png" alt="" width="30px"
-                                height="30px"></span>Instagram</a>
-                    <a href="https://www.linkedin.com/in/eliasdevmind/"><span><img src="./assets/img/linkedin.ico" alt=""
-                                width="30px" height="30px"></span>LinkedIn</a>
-                    <a href="https://github.com/eliasdevmind"><span><img src="./assets/img/git.png" alt="" width="30px"
-                                height="30px"></span>GitHub</a>
+                    <h1>Desenvolvedor <span>Back-End</span></h1>
+                    <div class="texto_descricao">
+
+                    <p>
+
+                        Olá, Elias Araujo é meu nome. Estou ingressando na área de programação <span>Back-End</span>,
+                        com
+                        foco em
+                        tecnologias como, <span>Flask, Django, JavaScript e Node.js.</span> Embora ainda esteja nos
+                        estágios
+                        iniciais da minha carreira, estou determinado a aprender e crescer nessas áreas. Estou ansioso
+                        para
+                        enfrentar desafios, desenvolver minhas habilidades e contribuir para projetos empolgantes.
+
+                    </p>
+                </div>
+
+                    <div class="elemento_pricipal_texto_links">
+                        <a href="https://www.instagram.com/eliasdevmind/"><span><img src="./assets/img/instagram.png"
+                                    alt="" width="30px" height="30px"></span>Instagram</a>
+                        <a href="https://www.linkedin.com/in/eliasdevmind/"><span><img src="./assets/img/linkedin.ico"
+                                    alt="" width="30px" height="30px"></span>LinkedIn</a>
+                        <a href="https://github.com/eliasdevmind"><span><img src="./assets/img/git.png" alt=""
+                                    width="30px" height="30px"></span>GitHub</a>
+                    </div>
+
+                </div>
+
+                <div class="elemento_pricipal_img">
+
+                    <img class="foto_usuario" src="./assets/img/Elias-removebg-preview.png"
+                        alt="Imagem Do Desenvilvedor" title="Imagem Do Desenvilvedor">
+
                 </div>
 
             </div>
 
-            <div class="elemento_pricipal_img">
-
-                <img class="foto_usuario" src="./assets/img/Elias-removebg-preview.png" alt="Imagem Do Desenvilvedor"
-                    title="Imagem Do Desenvilvedor">
-
-            </div>
-
-        </div>
 
 
+        </main>
 
-    </main>
-
-    <footer class="rodape">
-        <p class="rodape_texto">@Todos direitos rezevados</p>
-    </footer>
+        <footer class="rodape">
+            <p class="rodape_texto">@Todos direitos rezevados</p>
+        </footer>
+    </div>
 
 </body>
 
