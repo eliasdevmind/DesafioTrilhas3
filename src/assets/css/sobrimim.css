@@ -39,7 +39,7 @@ span{
 }
 
 h1 , p{
-    max-width: 800px;
+    max-width: 1200px;
     color: var(--cor-terciaria);
     font-family: Arial, sans-serif;
     line-height: 1.5;
@@ -47,11 +47,11 @@ h1 , p{
 }
 
 h1{
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 p{
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 span{
@@ -102,7 +102,7 @@ h1, p, span{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 4rem;
+    gap: 6rem;
 }
 
 .card_skils{
@@ -113,7 +113,7 @@ h1, p, span{
     border: solid 1px var(--cor-secundaria);
     border-radius: 25px;
     color: var(--cor-terciaria);
-    padding: 3rem;
+    padding: 2rem;
     gap: 1rem;
     
 }
@@ -132,3 +132,16 @@ h1, p, span{
 
 
 
+@media screen and (max-width: 850px) {
+    .card_skils{
+        padding: 0.5rem;
+    }
+
+.elemento_pricipal_skils_conteudo{
+
+    display: flex;
+    gap: 3rem;
+
+}
+
+}
