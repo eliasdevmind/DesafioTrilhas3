@@ -134,6 +134,9 @@ body{
 
 footer {
     padding: 20px;
+    text-align: center;
+    background-color: var(--cor-hover);
+    color: var(--cor-terciaria);
 }
 
 main{

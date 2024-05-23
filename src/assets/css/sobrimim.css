@@ -31,6 +31,11 @@
 
 }
 
+.titulo{
+    color: var(--cor-terciaria);
+    font-size: 3rem;
+}
+
 
 
 span{
@@ -38,7 +43,7 @@ span{
     color: var(--cor-secundaria);
 }
 
-titulo , p{
+titulo , .texto{
     max-width: 1200px;
     color: var(--cor-terciaria);
     font-family: Arial, sans-serif;
@@ -50,7 +55,7 @@ titulo{
     font-size: 3rem;
 }
 
-p{
+.texto{
   font-size: 1.5rem;
 }
 
@@ -59,7 +64,7 @@ span{
 }
 
 
-titulo, p, span{
+titulo, .texto, span{
     text-shadow: 2px 2px 6px #8c8c8ca8;
 }
 
@@ -71,77 +76,3 @@ titulo, p, span{
 }
 
 
-.elemento_pricipal_skils{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-   
-   
-}
-
-.elemento_pricipal_skils_button {
-    width: 12rem;
-    text-align: center;
-    padding: 0.5rem;
-    background-color: #3B128E;
-    color: white;
-    border-radius: 25px;
-    text-decoration: none;
-    transition: all 0.5s ease;
-}
-
-.elemento_pricipal_skils_button:hover {
-    background-color: #5227cc; /* Altera a cor de fundo no hover */
-    color: #fff; /* Altera a cor do texto no hover */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    transform: scale(1.0);
-}
-
-.elemento_pricipal_skils_conteudo{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 6rem;
-}
-
-.card_skils{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: var(--cor-hover);
-    border: solid 1px var(--cor-secundaria);
-    border-radius: 25px;
-    color: var(--cor-terciaria);
-    padding: 2rem;
-    gap: 1rem;
-    
-}
-
-
-
-.card_skils img{
-    box-shadow: 2px 2px 6px #706868;
-    border-radius: 25px;
-    background-color: #F6F6F6;
-   
-    
-}
-
-
-
-
-
-@media screen and (max-width: 850px) {
-    .card_skils{
-        padding: 0.5rem;
-    }
-
-.elemento_pricipal_skils_conteudo{
-
-    display: flex;
-    gap: 3rem;
-
-}
-
-}
