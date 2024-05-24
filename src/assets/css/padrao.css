@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 
 *{
     margin: 0;
@@ -16,6 +17,16 @@
     --fonte-secundaria: 'Montserrat', sans-serif;
 }
 
+#nome{
+    color: rgb(33, 120, 155);
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    z-index: 0;
+    
+  }
+  
+
 
 header {
     background-color: #24252a;
@@ -27,6 +38,7 @@ header {
     justify-content: space-between;
     padding: 0.5rem 6rem;
     align-items: center;
+    
 }
 
 .logo {

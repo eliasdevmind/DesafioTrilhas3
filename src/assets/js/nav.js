@@ -10,3 +10,15 @@ function menuShow() {
         icon.src = "./assets/img/close_white_36dp.svg";
     }
 }
+
+
+const nome = "EliasAraujo.Code";
+let delay = 0;
+const nomeElement = document.getElementById('nome');
+
+for (let i = 0; i < nome.length; i++) {
+  setTimeout(() => {
+    nomeElement.textContent += nome[i];
+  }, delay);
+  delay += 100; 
+}
